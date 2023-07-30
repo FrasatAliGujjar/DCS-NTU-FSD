@@ -1,2 +1,0 @@
-# DCS-NTU-FSD
-DCS-NTU-FSD
