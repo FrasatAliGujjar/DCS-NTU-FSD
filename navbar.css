@@ -1,0 +1,224 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('images/Home/bg2.jpeg');
+    background-position: fixed;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* =================================================  */
+
+@font-face {
+    font-family: Bulletto;
+    src: url(fonts/Bulletto.ttf);
+}
+
+@font-face {
+    font-family: Regista;
+    src: url(fonts/Regista.ttf);
+}
+
+@font-face {
+    font-family: Regista_i;
+    src: url(fonts/Regista_i.ttf);
+}
+
+@font-face {
+    font-family: Rockybilly;
+    src: url(fonts/Rockybilly.ttf);
+}
+
+@font-face {
+    font-family: Alvi;
+    src: url(fonts/Alvi.ttf);
+}
+
+/* ========================   NAV BAR Start   =========================  */
+
+.navbar-toggler-icon {
+    border: 1px solid darkblue;
+    border-radius: 4px;
+    color: darkblue;
+    background-color: white;
+}
+
+.logo {
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+
+/* main nav bar out div  */
+
+.navbar {
+    /* border: 2px solid magenta; */
+    border-radius: 30px;
+    height: fit-content;
+    margin-top: 10px;
+    /* background-color: red; */
+}
+
+.nav_bar_main_container {
+
+    /* border: 2px solid white; */
+    border-radius: 45px;
+    color: white;
+    background-color: darkblue;
+}
+
+.nav_bar_logo_bar {
+    /* margin-top: 15px; */
+    margin-left: 2px;
+    /* border: 2px solid red; */
+    height: fit-content;
+}
+
+.nav_bar_title_bar {
+    margin-top: 15px;
+    margin-left: -10px;
+    /* border: 2px solid red; */
+    height: fit-content;
+}
+
+.list_main {
+    margin-top: 20px;
+    margin-left: 65px;
+    /* border: 2px solid green; */
+    height: fit-content;
+}
+
+.nav-item {
+    height: fit-content;
+    /* border: 2px solid goldenrod; */
+    border-radius: 3px;
+}
+
+/* -------------------------------------  */
+.title {
+    color: cyan;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: none;
+}
+
+.home-btn {
+
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: white;
+    padding: 2px 10px;
+    color: darkblue;
+    text-align: center;
+    width: 130px;
+}
+
+.home-btn:hover {
+
+    border: 2px solid rgb(0, 183, 255);
+    border-radius: 20px;
+    background-color: rgb(0, 183, 255);
+    padding: 2px 10px;
+    color: white;
+    text-align: center;
+    width: 130px;
+}
+
+
+/* ========================   NAV BAR END   =========================  */
+
+
+
+
+
+
+
+
+/* ========================   FOOTER   =========================  */
+.footer_main {
+    margin-top: 500px;
+    border: 2px solid white;
+    border-left: none;
+    border-right: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    height: fit-content;
+}
+
+.column_1 {
+    border-left: 2px solid white;
+    height: 400px;
+}
+
+.footer_text {
+    color: white;
+    font-size: 20px;
+}
+
+.footer_text:hover {
+    color: cyan;
+    font-size: 22px;
+    transition: all 0.7s;
+
+}
+
+/* ------------------------------------------------  */
+.footer_bottom {
+    /* border: 2px solid blue; */
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+/* =================================================  */
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================  */
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {
+    .title {
+        color: white;
+        font-size: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        display: block;
+
+    }
+
+    .nav_bar_main_container {
+
+        /* border: 2px solid white; */
+        border-radius: 45px;
+        color: white;
+        background-color: darkblue;
+    }
+
+    .list_main {
+        margin-top: 20px;
+        margin-left: 100px;
+        /* border: 2px solid green; */
+        height: fit-content;
+    }
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 535px) {}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 412px) {}

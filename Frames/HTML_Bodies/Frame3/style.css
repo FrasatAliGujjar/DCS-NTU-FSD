@@ -1,0 +1,69 @@
+.main{
+    border: 2px solid red;
+    height: 500px;
+}               
+.main_inner{
+
+    border: 2px solid purple;
+    height: 490px;
+
+}     
+
+.box1_out{
+    border: 2px solid red;
+    height: fit-content;
+}
+.box1{
+    border: 2px solid red;
+    background-color: purple;
+    border-radius: 50%;
+    height: 290px;
+}
+
+.main-btn{
+
+    border: 2px solid purple;
+    border-radius: 20px;
+    background-color: purple;
+    padding: 5px 20px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+/* =================================================  */
+@media only screen and (max-width: 1920px) {
+       
+}
+@media only screen and (max-width: 1200px) {
+       
+}
+@media only screen and (max-width: 992px) {
+       
+}
+@media only screen and (max-width: 768px) {
+       
+}
+@media only screen and (max-width: 535px) {
+       
+}
+@media only screen and (max-width: 480px) {
+       
+}
+@media only screen and (max-width: 412px) {
+       
+}
